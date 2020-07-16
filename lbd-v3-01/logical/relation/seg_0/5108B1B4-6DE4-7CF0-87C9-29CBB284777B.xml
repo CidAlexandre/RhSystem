@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="CLIENTE_VAGAS" directorySegmentName="seg_0" id="5108B1B4-6DE4-7CF0-87C9-29CBB284777B">
+<createdBy>mateu</createdBy>
+<createdTime>2020-05-30 18:21:34 UTC</createdTime>
+<ownerDesignName>lbd-v3-01</ownerDesignName>
+<engineerTo>
+<item key="32C71565-19B1-B9C4-F60A-D0C06F54881B" value="true"/>
+</engineerTo>
+<sourcePk>8A469297-D302-D4A3-0DA3-3D3FAB22E571</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>3DEC54E7-C4DA-2643-DBF9-F734772FAC32</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>98D579F7-5773-EF50-602B-D71DBA05B7AC</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

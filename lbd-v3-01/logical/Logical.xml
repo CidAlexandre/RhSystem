@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="83FD1DA1-C6BD-382F-FC21-106D967C9B2F" mainViewID="7C3EC166-8C8C-512F-4B36-5BEF927D637B">
+<createdBy>alexa</createdBy>
+<createdTime>2020-05-30 00:34:59 UTC</createdTime>
+<ownerDesignName>LBD-v2-logico</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

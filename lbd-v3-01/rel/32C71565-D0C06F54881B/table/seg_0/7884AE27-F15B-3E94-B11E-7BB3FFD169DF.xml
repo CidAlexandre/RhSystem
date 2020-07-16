@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7884AE27-F15B-3E94-B11E-7BB3FFD169DF" name="VAGAS_HABILIDADE">
+<createdBy>alexa</createdBy>
+<createdTime>2020-06-02 19:47:57 UTC</createdTime>
+<ownerDesignName>lbd-v3-01</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="VAGAS_vgs_id" id="CDB59A66-4CA3-AF0B-8EB3-2EAE39FC8022">
+<createdBy>alexa</createdBy>
+<createdTime>2020-06-02 19:47:57 UTC</createdTime>
+<ownerDesignName>lbd-v3-01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1398E399-84A8-0266-1A8C-A87C3239F436" referredColumn="4ADFF0DE-66C4-EF70-A275-A33C7E6FD45C"/>
+</associations>
+</Column>
+<Column name="HABILIDADE_hab_id" id="06B306F1-07C5-A891-3F18-7593D4B1878F">
+<createdBy>alexa</createdBy>
+<createdTime>2020-06-02 19:47:57 UTC</createdTime>
+<ownerDesignName>lbd-v3-01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0CFBA24E-C4C4-B792-1A94-8FFEE51A379F" referredColumn="D6C3A64A-3DB4-2762-CDD0-821A48BAA305"/>
+</associations>
+</Column>
+<Column name="vgs_hab_nivel" id="EF6BDEF4-9547-D7A1-905F-D9E89F8C69CD">
+<createdBy>alexa</createdBy>
+<createdTime>2020-06-02 19:47:57 UTC</createdTime>
+<comment><![CDATA[refere ao nivel da habilidade necessaria para a vaga 
+0 - desconhece
+1 - conhece pouco
+2 - conhece
+3 - conhece muito
+4 - domina]]></comment>
+<generatorID>356329F9-BECD-42F7-E759-F4F9DE0773B8</generatorID>
+<ownerDesignName>lbd-v3-01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A6ACD576-D1C0-B434-52F4-7BE33596BBC3" name="VAGAS_HABILIDADE_PK">
+<createdBy>alexa</createdBy>
+<createdTime>2020-06-02 19:47:57 UTC</createdTime>
+<ownerDesignName>lbd-v3-01</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CDB59A66-4CA3-AF0B-8EB3-2EAE39FC8022"/>
+<colUsage columnID="06B306F1-07C5-A891-3F18-7593D4B1878F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A408D617-BB8E-0F16-90F8-883C1C5E621D" name="VAGAS_HABILIDADE_VAGAS_FK">
+<createdBy>alexa</createdBy>
+<createdTime>2020-06-02 19:47:57 UTC</createdTime>
+<generatorID>51E1FFFE-6E72-DE6D-7188-CF1829E25D2C</generatorID>
+<ownerDesignName>lbd-v3-01</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CDB59A66-4CA3-AF0B-8EB3-2EAE39FC8022"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="99D10192-814A-F618-328B-ED06EFEF7FC6" name="VAGAS_HABILIDADE_HABILIDADE_FK">
+<createdBy>alexa</createdBy>
+<createdTime>2020-06-02 19:47:57 UTC</createdTime>
+<generatorID>51E1FFFE-6E72-DE6D-7188-CF1829E25D2C</generatorID>
+<ownerDesignName>lbd-v3-01</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="06B306F1-07C5-A891-3F18-7593D4B1878F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

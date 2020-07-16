@@ -1,0 +1,194 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3DEC54E7-C4DA-2643-DBF9-F734772FAC32" name="VAGAS">
+<createdBy>alexa</createdBy>
+<createdTime>2020-05-30 03:25:19 UTC</createdTime>
+<commentInRDBMS><![CDATA[Tabela contendo os dados das vagas com relação a cliente, empresa]]></commentInRDBMS>
+<ownerDesignName>lbd-v3-01</ownerDesignName>
+<engineerTo>
+<item key="32C71565-19B1-B9C4-F60A-D0C06F54881B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="vgs_id" id="B05B488B-5E49-8744-CFE7-B6585CADBE8F">
+<createdBy>alexa</createdBy>
+<createdTime>2020-05-30 03:25:30 UTC</createdTime>
+<commentInRDBMS><![CDATA[numero de cadastro da vaga no site]]></commentInRDBMS>
+<ownerDesignName>lbd-v3-01</ownerDesignName>
+<engineerTo>
+<item key="32C71565-19B1-B9C4-F60A-D0C06F54881B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vgs_titulo" id="8A24280B-326A-C657-2001-E08404DF6832">
+<createdBy>alexa</createdBy>
+<createdTime>2020-05-30 03:25:30 UTC</createdTime>
+<commentInRDBMS><![CDATA[nome da vaga]]></commentInRDBMS>
+<ownerDesignName>lbd-v3-01</ownerDesignName>
+<engineerTo>
+<item key="32C71565-19B1-B9C4-F60A-D0C06F54881B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vgs_categoria" id="06C2F2F5-851D-4F25-D05C-CC699BD99FC1">
+<createdBy>alexa</createdBy>
+<createdTime>2020-05-30 03:25:30 UTC</createdTime>
+<commentInRDBMS><![CDATA[categoria operacional da vaga]]></commentInRDBMS>
+<ownerDesignName>lbd-v3-01</ownerDesignName>
+<engineerTo>
+<item key="32C71565-19B1-B9C4-F60A-D0C06F54881B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vgs_descricao" id="977BF4F9-B671-D4A3-D1D1-8BF2350E653E">
+<createdBy>mateu</createdBy>
+<createdTime>2020-05-30 18:51:12 UTC</createdTime>
+<commentInRDBMS><![CDATA[descricao da vaga]]></commentInRDBMS>
+<ownerDesignName>lbd-v3-01</ownerDesignName>
+<engineerTo>
+<item key="32C71565-19B1-B9C4-F60A-D0C06F54881B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300</dataTypeSize>
+<ownDataTypeParameters>300,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vgs_tipo_contrato" id="94A7969D-DCAE-D41A-89D9-B7A791AEFE5B">
+<createdBy>alexa</createdBy>
+<createdTime>2020-05-30 03:25:30 UTC</createdTime>
+<commentInRDBMS><![CDATA[tipo de contrato da vaga]]></commentInRDBMS>
+<ownerDesignName>lbd-v3-01</ownerDesignName>
+<engineerTo>
+<item key="32C71565-19B1-B9C4-F60A-D0C06F54881B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vgs_anos_experiencia" id="73D7676E-57CE-DBAB-4A2E-061E47FC3078">
+<createdBy>alexa</createdBy>
+<createdTime>2020-05-30 03:25:31 UTC</createdTime>
+<commentInRDBMS><![CDATA[qual a experiencia exigida por parte do candidato]]></commentInRDBMS>
+<ownerDesignName>lbd-v3-01</ownerDesignName>
+<engineerTo>
+<item key="32C71565-19B1-B9C4-F60A-D0C06F54881B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vgs_nivel_escolaridade" id="D6CCB6DC-238F-33CE-289A-A78B3D442C7A">
+<createdBy>alexa</createdBy>
+<createdTime>2020-05-30 03:25:31 UTC</createdTime>
+<commentInRDBMS><![CDATA[qual a escolaridade exigida por parte do candidato]]></commentInRDBMS>
+<ownerDesignName>lbd-v3-01</ownerDesignName>
+<engineerTo>
+<item key="32C71565-19B1-B9C4-F60A-D0C06F54881B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vgs_publicacao" id="B32CF673-CAB4-B92F-63F8-00908E98CE56">
+<createdBy>alexa</createdBy>
+<createdTime>2020-05-30 03:25:31 UTC</createdTime>
+<commentInRDBMS><![CDATA[data publicacao vaga]]></commentInRDBMS>
+<ownerDesignName>lbd-v3-01</ownerDesignName>
+<engineerTo>
+<item key="32C71565-19B1-B9C4-F60A-D0C06F54881B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vgs_ultima_atualizacao" id="B5B847A3-3796-D1C3-604A-272543B6DF41">
+<createdBy>alexa</createdBy>
+<createdTime>2020-05-30 03:25:31 UTC</createdTime>
+<commentInRDBMS><![CDATA[quando ocorreu a ultima mudanca na vaga]]></commentInRDBMS>
+<ownerDesignName>lbd-v3-01</ownerDesignName>
+<engineerTo>
+<item key="32C71565-19B1-B9C4-F60A-D0C06F54881B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vgs_desativacao" id="54675B82-8303-681E-B578-918FC3BECB51">
+<createdBy>alexa</createdBy>
+<createdTime>2020-05-30 03:25:31 UTC</createdTime>
+<commentInRDBMS><![CDATA[data da desativacao da vaga]]></commentInRDBMS>
+<ownerDesignName>lbd-v3-01</ownerDesignName>
+<engineerTo>
+<item key="32C71565-19B1-B9C4-F60A-D0C06F54881B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="emp_id" id="7139BB18-D22A-8C7C-8294-06A561B93876">
+<createdBy>mateu</createdBy>
+<createdTime>2020-05-30 18:56:57 UTC</createdTime>
+<generatorID>2C07E06E-B798-CC95-BE93-B40D9200D05F</generatorID>
+<ownerDesignName>lbd-v3-01</ownerDesignName>
+<engineerTo>
+<item key="32C71565-19B1-B9C4-F60A-D0C06F54881B" value="true"/>
+</engineerTo>
+<referedAttribute>789D480F-ED94-5481-0A77-E101E29EBF3E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8A469297-D302-D4A3-0DA3-3D3FAB22E571" name="VAGAS PK">
+<createdBy>mateu</createdBy>
+<createdTime>2020-05-30 18:21:25 UTC</createdTime>
+<ownerDesignName>lbd-v3-01</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="32C71565-19B1-B9C4-F60A-D0C06F54881B" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B05B488B-5E49-8744-CFE7-B6585CADBE8F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,39 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="VAGAS_HABILIDADE" directorySegmentName="seg_0" id="51E1FFFE-6E72-DE6D-7188-CF1829E25D2C">
+<createdBy>mateu</createdBy>
+<createdTime>2020-05-30 18:40:06 UTC</createdTime>
+<ownerDesignName>lbd-v3-01</ownerDesignName>
+<engineerTo>
+<item key="32C71565-19B1-B9C4-F60A-D0C06F54881B" value="true"/>
+</engineerTo>
+<sourcePk>8A469297-D302-D4A3-0DA3-3D3FAB22E571</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>3DEC54E7-C4DA-2643-DBF9-F734772FAC32</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>2A0400C5-C31F-210D-3928-E13AB5F13D6B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="vgs_hab_nivel" id="356329F9-BECD-42F7-E759-F4F9DE0773B8">
+<createdBy>alexa</createdBy>
+<createdTime>2020-06-02 19:13:17 UTC</createdTime>
+<comment><![CDATA[refere ao nivel da habilidade necessaria para a vaga 
+0 - desconhece
+1 - conhece pouco
+2 - conhece
+3 - conhece muito
+4 - domina]]></comment>
+<ownerDesignName>lbd-v3-01</ownerDesignName>
+<engineerTo>
+<item key="32C71565-19B1-B9C4-F60A-D0C06F54881B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E2A1EFA7-1EAA-8EEE-A5D3-30D1A4088FD7" name="CLIENTE_VAGAS">
+<createdBy>alexa</createdBy>
+<createdTime>2020-06-02 19:47:57 UTC</createdTime>
+<ownerDesignName>lbd-v3-01</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="VAGAS_vgs_id" id="55CC958B-A20C-044D-0650-DFB89722D872">
+<createdBy>alexa</createdBy>
+<createdTime>2020-06-02 19:47:57 UTC</createdTime>
+<ownerDesignName>lbd-v3-01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A995D0C6-0C49-B550-FBED-8B600324AD11" referredColumn="4ADFF0DE-66C4-EF70-A275-A33C7E6FD45C"/>
+</associations>
+</Column>
+<Column name="CLIENTE_cli_id" id="287F7CE5-D4A6-0619-65D0-2C954F2001E6">
+<createdBy>alexa</createdBy>
+<createdTime>2020-06-02 19:47:57 UTC</createdTime>
+<ownerDesignName>lbd-v3-01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="26EC2598-0B78-2DA4-61FE-573DE21B8597" referredColumn="98A6C40A-09C7-E44C-8EAA-5A67B265E922"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1D701405-20E1-3ED7-A106-A09CA10B0E7D" name="CLIENTE_VAGAS_PK">
+<createdBy>alexa</createdBy>
+<createdTime>2020-06-02 19:47:57 UTC</createdTime>
+<ownerDesignName>lbd-v3-01</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="55CC958B-A20C-044D-0650-DFB89722D872"/>
+<colUsage columnID="287F7CE5-D4A6-0619-65D0-2C954F2001E6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4E8E2A5E-1975-3E1E-4047-45FBB2D802B1" name="CLIENTE_VAGAS_VAGAS_FK">
+<createdBy>alexa</createdBy>
+<createdTime>2020-06-02 19:47:57 UTC</createdTime>
+<generatorID>5108B1B4-6DE4-7CF0-87C9-29CBB284777B</generatorID>
+<ownerDesignName>lbd-v3-01</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="55CC958B-A20C-044D-0650-DFB89722D872"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0FAF4F3A-C769-D9E1-10B1-30BA7B0CC4D3" name="CLIENTE_VAGAS_CLIENTE_FK">
+<createdBy>alexa</createdBy>
+<createdTime>2020-06-02 19:47:57 UTC</createdTime>
+<generatorID>5108B1B4-6DE4-7CF0-87C9-29CBB284777B</generatorID>
+<ownerDesignName>lbd-v3-01</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="287F7CE5-D4A6-0619-65D0-2C954F2001E6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

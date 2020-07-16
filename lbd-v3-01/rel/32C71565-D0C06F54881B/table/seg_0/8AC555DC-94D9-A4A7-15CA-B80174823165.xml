@@ -1,0 +1,190 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8AC555DC-94D9-A4A7-15CA-B80174823165" name="VAGAS">
+<createdBy>alexa</createdBy>
+<createdTime>2020-06-02 19:47:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[Tabela contendo os dados das vagas com relação a cliente, empresa]]></commentInRDBMS>
+<generatorID>3DEC54E7-C4DA-2643-DBF9-F734772FAC32</generatorID>
+<ownerDesignName>lbd-v3-01</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="vgs_id" id="4ADFF0DE-66C4-EF70-A275-A33C7E6FD45C">
+<createdBy>alexa</createdBy>
+<createdTime>2020-06-02 19:47:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[numero de cadastro da vaga no site]]></commentInRDBMS>
+<generatorID>B05B488B-5E49-8744-CFE7-B6585CADBE8F</generatorID>
+<ownerDesignName>lbd-v3-01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementMaxValue>9999999999999999999999999999</autoIncrementMaxValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vgs_titulo" id="31D76FDD-D9C8-E45B-457E-FDA3DB3D5C8F">
+<createdBy>alexa</createdBy>
+<createdTime>2020-06-02 19:47:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[nome da vaga]]></commentInRDBMS>
+<generatorID>8A24280B-326A-C657-2001-E08404DF6832</generatorID>
+<ownerDesignName>lbd-v3-01</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vgs_categoria" id="E0B5F653-E070-0512-5116-78E829638E93">
+<createdBy>alexa</createdBy>
+<createdTime>2020-06-02 19:47:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[categoria operacional da vaga]]></commentInRDBMS>
+<generatorID>06C2F2F5-851D-4F25-D05C-CC699BD99FC1</generatorID>
+<ownerDesignName>lbd-v3-01</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vgs_descricao" id="74714703-B93E-90B4-B1F6-B88393AB0580">
+<createdBy>alexa</createdBy>
+<createdTime>2020-06-02 19:47:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[descricao da vaga]]></commentInRDBMS>
+<generatorID>977BF4F9-B671-D4A3-D1D1-8BF2350E653E</generatorID>
+<ownerDesignName>lbd-v3-01</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vgs_tipo_contrato" id="6AC850A8-863D-4E57-37F7-B0FB5F23F482">
+<createdBy>alexa</createdBy>
+<createdTime>2020-06-02 19:47:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[tipo de contrato da vaga]]></commentInRDBMS>
+<generatorID>94A7969D-DCAE-D41A-89D9-B7A791AEFE5B</generatorID>
+<ownerDesignName>lbd-v3-01</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vgs_anos_experiencia" id="0E229F16-51AA-852F-1152-F8D32A7CDD61">
+<createdBy>alexa</createdBy>
+<createdTime>2020-06-02 19:47:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[qual a experiencia exigida por parte do candidato]]></commentInRDBMS>
+<generatorID>73D7676E-57CE-DBAB-4A2E-061E47FC3078</generatorID>
+<ownerDesignName>lbd-v3-01</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vgs_nivel_escolaridade" id="E0B02DD1-A2CC-6724-C686-69A046B54618">
+<createdBy>alexa</createdBy>
+<createdTime>2020-06-02 19:47:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[qual a escolaridade exigida por parte do candidato]]></commentInRDBMS>
+<generatorID>D6CCB6DC-238F-33CE-289A-A78B3D442C7A</generatorID>
+<ownerDesignName>lbd-v3-01</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vgs_publicacao" id="FA6D84C4-DBAB-F072-D175-24B30171BDD5">
+<createdBy>alexa</createdBy>
+<createdTime>2020-06-02 19:47:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[data publicacao vaga]]></commentInRDBMS>
+<generatorID>B32CF673-CAB4-B92F-63F8-00908E98CE56</generatorID>
+<ownerDesignName>lbd-v3-01</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vgs_ultima_atualizacao" id="80526A81-2D06-1330-026B-38240ABA2BC5">
+<createdBy>alexa</createdBy>
+<createdTime>2020-06-02 19:47:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[quando ocorreu a ultima mudanca na vaga]]></commentInRDBMS>
+<generatorID>B5B847A3-3796-D1C3-604A-272543B6DF41</generatorID>
+<ownerDesignName>lbd-v3-01</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vgs_desativacao" id="8008B268-2A3B-39CE-89AF-E5AE285923A8">
+<createdBy>alexa</createdBy>
+<createdTime>2020-06-02 19:47:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[data da desativacao da vaga]]></commentInRDBMS>
+<generatorID>54675B82-8303-681E-B578-918FC3BECB51</generatorID>
+<ownerDesignName>lbd-v3-01</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMPRESA_emp_id" id="1D456419-357E-FC73-9916-05500065D742">
+<createdBy>alexa</createdBy>
+<createdTime>2020-06-02 19:47:57 UTC</createdTime>
+<generatorID>7139BB18-D22A-8C7C-8294-06A561B93876</generatorID>
+<ownerDesignName>lbd-v3-01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="74C0725B-23E9-FF47-3A67-3ABF1556598A" referredColumn="2F14FE5A-A69F-20DD-A044-5A4C0A667C45"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2A4AD09D-1A57-0CC9-F31C-04C5D4F9B304" name="VAGAS_PK">
+<createdBy>alexa</createdBy>
+<createdTime>2020-06-02 19:47:57 UTC</createdTime>
+<generatorID>8A469297-D302-D4A3-0DA3-3D3FAB22E571</generatorID>
+<ownerDesignName>lbd-v3-01</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4ADFF0DE-66C4-EF70-A275-A33C7E6FD45C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A697640D-039F-34F3-7D00-77D1863A7732" name="VAGAS_EMPRESA_FK">
+<createdBy>alexa</createdBy>
+<createdTime>2020-06-02 19:47:57 UTC</createdTime>
+<generatorID>2C07E06E-B798-CC95-BE93-B40D9200D05F</generatorID>
+<ownerDesignName>lbd-v3-01</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1D456419-357E-FC73-9916-05500065D742"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

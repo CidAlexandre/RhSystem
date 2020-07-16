@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A586AB24-69C3-E64F-86D3-8ED5D33F1BDB" containerWithKeyObject="A4C0EBCC-9068-35EA-7A32-1458AEEA93BB" localFKIndex="73C445D8-103E-0618-B8F3-23720A6711FC" name="PK_clihab_cli">
+<createdBy>alexa</createdBy>
+<createdTime>2020-06-02 19:47:57 UTC</createdTime>
+<generatorID>E615F5D2-102B-63CD-7FC2-AE3B60EB3E64</generatorID>
+<ownerDesignName>lbd-v3-01</ownerDesignName>
+<referredTableLongName>CLIENTES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>5B471300-3D52-3711-65A9-FA798EE24AE6</referredTableID>
+<keyObject>531439EB-BBBF-4339-A3DA-77117F89804D</keyObject>
+<referredKeyID>531439EB-BBBF-4339-A3DA-77117F89804D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cli_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0CFBA24E-C4C4-B792-1A94-8FFEE51A379F" containerWithKeyObject="7884AE27-F15B-3E94-B11E-7BB3FFD169DF" localFKIndex="99D10192-814A-F618-328B-ED06EFEF7FC6" name="VAGAS_HABILIDADE_HABILIDADE_FK">
+<createdBy>alexa</createdBy>
+<createdTime>2020-06-02 19:47:57 UTC</createdTime>
+<generatorID>51E1FFFE-6E72-DE6D-7188-CF1829E25D2C</generatorID>
+<ownerDesignName>lbd-v3-01</ownerDesignName>
+<referredTableLongName>HABILIDADE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>357D1143-9961-AACE-639C-0ABAC8AD4450</referredTableID>
+<keyObject>6E66CD1F-FADC-8595-3920-230BBBDEF377</keyObject>
+<referredKeyID>6E66CD1F-FADC-8595-3920-230BBBDEF377</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>hab_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

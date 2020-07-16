@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A995D0C6-0C49-B550-FBED-8B600324AD11" containerWithKeyObject="E2A1EFA7-1EAA-8EEE-A5D3-30D1A4088FD7" localFKIndex="4E8E2A5E-1975-3E1E-4047-45FBB2D802B1" name="CLIENTE_VAGAS_VAGAS_FK">
+<createdBy>alexa</createdBy>
+<createdTime>2020-06-02 19:47:57 UTC</createdTime>
+<generatorID>5108B1B4-6DE4-7CF0-87C9-29CBB284777B</generatorID>
+<ownerDesignName>lbd-v3-01</ownerDesignName>
+<referredTableLongName>VAGAS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>8AC555DC-94D9-A4A7-15CA-B80174823165</referredTableID>
+<keyObject>2A4AD09D-1A57-0CC9-F31C-04C5D4F9B304</keyObject>
+<referredKeyID>2A4AD09D-1A57-0CC9-F31C-04C5D4F9B304</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>vgs_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

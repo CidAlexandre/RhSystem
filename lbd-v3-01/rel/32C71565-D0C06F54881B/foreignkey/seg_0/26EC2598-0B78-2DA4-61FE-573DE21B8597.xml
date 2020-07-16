@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="26EC2598-0B78-2DA4-61FE-573DE21B8597" containerWithKeyObject="E2A1EFA7-1EAA-8EEE-A5D3-30D1A4088FD7" localFKIndex="0FAF4F3A-C769-D9E1-10B1-30BA7B0CC4D3" name="CLIENTE_VAGAS_CLIENTE_FK">
+<createdBy>alexa</createdBy>
+<createdTime>2020-06-02 19:47:57 UTC</createdTime>
+<generatorID>5108B1B4-6DE4-7CF0-87C9-29CBB284777B</generatorID>
+<ownerDesignName>lbd-v3-01</ownerDesignName>
+<referredTableLongName>CLIENTE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>5B471300-3D52-3711-65A9-FA798EE24AE6</referredTableID>
+<keyObject>531439EB-BBBF-4339-A3DA-77117F89804D</keyObject>
+<referredKeyID>531439EB-BBBF-4339-A3DA-77117F89804D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cli_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

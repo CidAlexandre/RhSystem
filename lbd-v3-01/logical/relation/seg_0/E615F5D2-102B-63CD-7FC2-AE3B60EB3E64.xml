@@ -1,0 +1,39 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="CLIENTE_HABILIDADE" directorySegmentName="seg_0" id="E615F5D2-102B-63CD-7FC2-AE3B60EB3E64">
+<createdBy>mateu</createdBy>
+<createdTime>2020-05-30 21:07:29 UTC</createdTime>
+<ownerDesignName>lbd-v3-01</ownerDesignName>
+<engineerTo>
+<item key="32C71565-19B1-B9C4-F60A-D0C06F54881B" value="true"/>
+</engineerTo>
+<sourcePk>7E588967-D368-602C-743C-DE5C4648E51F</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>98D579F7-5773-EF50-602B-D71DBA05B7AC</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>2A0400C5-C31F-210D-3928-E13AB5F13D6B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="cli_hab_nivel" id="90EC8313-D758-809A-9D17-3479482B628E">
+<createdBy>alexa</createdBy>
+<createdTime>2020-06-02 19:10:49 UTC</createdTime>
+<comment><![CDATA[refere ao nivel da habilidade do cliente sendo 
+0 - desconhece
+1 - conhece pouco
+2 - conhece
+3 - conhece muito
+4 - domina]]></comment>
+<ownerDesignName>lbd-v3-01</ownerDesignName>
+<engineerTo>
+<item key="32C71565-19B1-B9C4-F60A-D0C06F54881B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

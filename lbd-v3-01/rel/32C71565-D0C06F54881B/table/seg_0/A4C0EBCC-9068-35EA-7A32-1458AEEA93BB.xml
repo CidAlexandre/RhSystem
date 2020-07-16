@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A4C0EBCC-9068-35EA-7A32-1458AEEA93BB" name="CLIENTE_HABILIDADE">
+<createdBy>alexa</createdBy>
+<createdTime>2020-06-02 19:47:57 UTC</createdTime>
+<ownerDesignName>lbd-v3-01</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CLIENTE_cli_id" id="B1C292FB-056E-8F7F-B6EC-CD8B3DB76DEE">
+<createdBy>alexa</createdBy>
+<createdTime>2020-06-02 19:47:57 UTC</createdTime>
+<ownerDesignName>lbd-v3-01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A586AB24-69C3-E64F-86D3-8ED5D33F1BDB" referredColumn="98A6C40A-09C7-E44C-8EAA-5A67B265E922"/>
+</associations>
+</Column>
+<Column name="HABILIDADE_hab_id" id="D3536EB2-8BA0-3BB8-5BFC-A14113BEF8EC">
+<createdBy>alexa</createdBy>
+<createdTime>2020-06-02 19:47:57 UTC</createdTime>
+<ownerDesignName>lbd-v3-01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2215B033-B37D-04F5-37D1-92BCFAEBBF73" referredColumn="D6C3A64A-3DB4-2762-CDD0-821A48BAA305"/>
+</associations>
+</Column>
+<Column name="cli_hab_nivel" id="29C530C1-51E1-9687-CECA-FEB971BD95C8">
+<createdBy>alexa</createdBy>
+<createdTime>2020-06-02 19:47:57 UTC</createdTime>
+<comment><![CDATA[refere ao nivel da habilidade do cliente sendo 
+0 - desconhece
+1 - conhece pouco
+2 - conhece
+3 - conhece muito
+4 - domina]]></comment>
+<generatorID>90EC8313-D758-809A-9D17-3479482B628E</generatorID>
+<ownerDesignName>lbd-v3-01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="10C937EC-9EBD-3B81-D70E-F0C88436C42A" name="CLIENTE_HABILIDADE_PK">
+<createdBy>alexa</createdBy>
+<createdTime>2020-06-02 19:47:57 UTC</createdTime>
+<ownerDesignName>lbd-v3-01</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B1C292FB-056E-8F7F-B6EC-CD8B3DB76DEE"/>
+<colUsage columnID="D3536EB2-8BA0-3BB8-5BFC-A14113BEF8EC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="73C445D8-103E-0618-B8F3-23720A6711FC" name="PK_clihab_cli">
+<createdBy>alexa</createdBy>
+<createdTime>2020-06-02 19:47:57 UTC</createdTime>
+<generatorID>E615F5D2-102B-63CD-7FC2-AE3B60EB3E64</generatorID>
+<ownerDesignName>lbd-v3-01</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B1C292FB-056E-8F7F-B6EC-CD8B3DB76DEE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CBCB1527-CDF8-5F7F-E82E-C4F660B519AF" name="PK_clihab_hab">
+<createdBy>alexa</createdBy>
+<createdTime>2020-06-02 19:47:57 UTC</createdTime>
+<generatorID>E615F5D2-102B-63CD-7FC2-AE3B60EB3E64</generatorID>
+<ownerDesignName>lbd-v3-01</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D3536EB2-8BA0-3BB8-5BFC-A14113BEF8EC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

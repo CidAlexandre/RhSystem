@@ -1,0 +1,195 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="66139CFD-6945-7E2C-CFBB-29B26EFB28B5" name="EMPRESAS">
+<createdBy>alexa</createdBy>
+<createdTime>2020-06-02 19:47:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[Tabela contendo os dados da empresa]]></commentInRDBMS>
+<generatorID>D3E838EF-3BCB-5401-6B87-050A865F504B</generatorID>
+<ownerDesignName>lbd-v3-01</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="emp_id" id="2F14FE5A-A69F-20DD-A044-5A4C0A667C45">
+<createdBy>alexa</createdBy>
+<createdTime>2020-06-02 19:47:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[Numero de cadastro da empresa no site]]></commentInRDBMS>
+<generatorID>789D480F-ED94-5481-0A77-E101E29EBF3E</generatorID>
+<ownerDesignName>lbd-v3-01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementMaxValue>9999999999999999999999999999</autoIncrementMaxValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="emp_cnpj" id="A1AE3D22-9CA9-FA43-9053-7DFF8EFFA92B">
+<createdBy>alexa</createdBy>
+<createdTime>2020-06-02 19:47:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[Numero referente ao cadastro da empresa junto ao governo]]></commentInRDBMS>
+<generatorID>2C70CB9D-8CAA-7087-9B22-D59C5DE87936</generatorID>
+<ownerDesignName>lbd-v3-01</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>18</dataTypeSize>
+<ownDataTypeParameters>18,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="emp_nome_fantasia" id="F74A9BC6-9BD5-AAA1-A5DE-A3A3FE164D9E">
+<createdBy>alexa</createdBy>
+<createdTime>2020-06-02 19:47:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[nome pelo qual a empresa se apresenta]]></commentInRDBMS>
+<generatorID>D32BC9D5-DAF8-BA70-32C9-9FCF02C9F18E</generatorID>
+<ownerDesignName>lbd-v3-01</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="emp_descricao_atividade" id="54BE7807-0B34-A83A-B88D-567EFCBAEBF3">
+<createdBy>alexa</createdBy>
+<createdTime>2020-06-02 19:47:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[descricao dos ramos no qual a empresa atua]]></commentInRDBMS>
+<generatorID>2DDF2C12-CE55-3049-6200-173B5FDCD0BB</generatorID>
+<ownerDesignName>lbd-v3-01</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="emp_logradouro" id="E4E5D498-9E7D-8CD9-6409-ECDBA296123C">
+<createdBy>alexa</createdBy>
+<createdTime>2020-06-03 18:15:15 UTC</createdTime>
+<commentInRDBMS><![CDATA[endereco da empresa]]></commentInRDBMS>
+<generatorID>BDF9EE0C-C931-C379-1A9A-51B28DB73AAA</generatorID>
+<ownerDesignName>lbd-v3-01</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="emp_numero" id="30C9B986-AB05-8CC9-8B25-516154684B2D">
+<createdBy>alexa</createdBy>
+<createdTime>2020-06-03 18:15:15 UTC</createdTime>
+<commentInRDBMS><![CDATA[numero da empresa]]></commentInRDBMS>
+<generatorID>0A1648AD-EA1D-A411-C18C-01DBD5D77446</generatorID>
+<ownerDesignName>lbd-v3-01</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="emp_complemento" id="7B0583F7-ED05-A084-4FD6-FD433D5902AE">
+<createdBy>alexa</createdBy>
+<createdTime>2020-06-03 18:15:15 UTC</createdTime>
+<commentInRDBMS><![CDATA[complemento do endereco da empresa]]></commentInRDBMS>
+<generatorID>F3A9C70F-2D21-1D9A-F242-E2172192102C</generatorID>
+<ownerDesignName>lbd-v3-01</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>35</dataTypeSize>
+<ownDataTypeParameters>35,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="emp_bairro" id="34B1FDD0-FE4B-2501-4778-5C0B77F22847">
+<createdBy>alexa</createdBy>
+<createdTime>2020-06-03 18:15:15 UTC</createdTime>
+<commentInRDBMS><![CDATA[bairro onde a empresa se localiza]]></commentInRDBMS>
+<generatorID>BAA60C4E-270E-575F-975E-A7AF4190A022</generatorID>
+<ownerDesignName>lbd-v3-01</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="emp_cidade" id="96346157-D7C1-C03D-0574-CC12C131233E">
+<createdBy>alexa</createdBy>
+<createdTime>2020-06-03 18:15:15 UTC</createdTime>
+<commentInRDBMS><![CDATA[cidade onde a empresa se localiza]]></commentInRDBMS>
+<generatorID>731DAB2D-3416-E8A9-15FF-F03687A40584</generatorID>
+<ownerDesignName>lbd-v3-01</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="emp_estado" id="7466FFA7-7EE0-FEBC-6AB4-1CDCE039FEF9">
+<createdBy>alexa</createdBy>
+<createdTime>2020-06-03 18:15:15 UTC</createdTime>
+<commentInRDBMS><![CDATA[estado onde a empresa se localiza]]></commentInRDBMS>
+<generatorID>158CFC68-C192-25AD-2407-0A65B1118C0B</generatorID>
+<ownerDesignName>lbd-v3-01</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="emp_uf" id="892661D6-1684-ABFB-16CB-9222C67F87C8">
+<createdBy>alexa</createdBy>
+<createdTime>2020-06-03 18:15:15 UTC</createdTime>
+<commentInRDBMS><![CDATA[unidade federativa onde a empresa se localiza]]></commentInRDBMS>
+<generatorID>947B7A5A-B92E-9BD1-04C4-EBCF77242249</generatorID>
+<ownerDesignName>lbd-v3-01</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="emp_cep" id="1607A4DB-4518-824D-0ACC-6300A69AA058">
+<createdBy>alexa</createdBy>
+<createdTime>2020-06-03 18:15:15 UTC</createdTime>
+<commentInRDBMS><![CDATA[cep onde a empresa se localiza]]></commentInRDBMS>
+<generatorID>AE72B0C5-97F1-3EAA-EF93-01995C9B0A82</generatorID>
+<ownerDesignName>lbd-v3-01</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1ECE5EEE-A60D-EC4F-7946-77120FD3F30A" name="EMPRESA_PK">
+<createdBy>alexa</createdBy>
+<createdTime>2020-06-02 19:47:57 UTC</createdTime>
+<generatorID>B6671B74-80F7-637B-F4BC-B20324194394</generatorID>
+<ownerDesignName>lbd-v3-01</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2F14FE5A-A69F-20DD-A044-5A4C0A667C45"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

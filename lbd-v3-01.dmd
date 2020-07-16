@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="lbd-v3-01" id="4CFE7F2A-AB80-04FD-DE46-FAD54AD98ACA" version="3.5">
+<createdBy>alexa</createdBy>
+<createdTime>2020-05-30 00:34:59 UTC</createdTime>
+<ownerDesignName>LBD-v2-logico</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>4CFE7F2A-AB80-04FD-DE46-FAD54AD98ACA</designId>
+</OSDM_Design>

@@ -1,0 +1,239 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5B471300-3D52-3711-65A9-FA798EE24AE6" name="CLIENTES">
+<createdBy>alexa</createdBy>
+<createdTime>2020-06-02 19:47:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[Tabela contendo os dados dos clientes]]></commentInRDBMS>
+<generatorID>98D579F7-5773-EF50-602B-D71DBA05B7AC</generatorID>
+<ownerDesignName>lbd-v3-01</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cli_id" id="98A6C40A-09C7-E44C-8EAA-5A67B265E922">
+<createdBy>alexa</createdBy>
+<createdTime>2020-06-02 19:47:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[numero do cadastro do cliente no site]]></commentInRDBMS>
+<generatorID>FCB5C1DA-322E-6D9E-954C-A402D22B204B</generatorID>
+<ownerDesignName>lbd-v3-01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>1</beginValue>
+</rangeDef>
+</listOfRanges>
+</Column>
+<Column name="cli_pnome" id="B5B3FF58-6B53-994B-3384-A1ECE6B2CC66">
+<createdBy>alexa</createdBy>
+<createdTime>2020-06-02 19:47:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[nome do cliente]]></commentInRDBMS>
+<generatorID>708CF246-A06E-E6BE-40EB-367052D7FE6D</generatorID>
+<ownerDesignName>lbd-v3-01</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cli_nmeio" id="AE6A5CB7-4B7B-EABE-A008-A4F873C09782">
+<createdBy>alexa</createdBy>
+<createdTime>2020-06-02 19:47:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[nome do meio do cliente]]></commentInRDBMS>
+<generatorID>4179250A-D7C9-FE3C-ED4E-2EA6938BCCEC</generatorID>
+<ownerDesignName>lbd-v3-01</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cli_unome" id="C2087626-6B8C-43B9-DAAF-0729B93A1AEA">
+<createdBy>alexa</createdBy>
+<createdTime>2020-06-19 22:24:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[ultimo nome do cliente]]></commentInRDBMS>
+<ownerDesignName>lbd-v3-01</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cli_sexo" id="836F92FD-36FD-661B-2725-90D365FF5CED">
+<createdBy>alexa</createdBy>
+<createdTime>2020-06-20 01:19:15 UTC</createdTime>
+<commentInRDBMS><![CDATA[sexo do cliente]]></commentInRDBMS>
+<ownerDesignName>lbd-v3-01</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cli_email" id="208E5F43-474B-A5FE-C1F2-D4652FBE38F9">
+<createdBy>alexa</createdBy>
+<createdTime>2020-06-02 19:47:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[email de cadastro do cliente]]></commentInRDBMS>
+<generatorID>F60E9B7E-DDA0-929B-80DE-4CBBE2FF0440</generatorID>
+<ownerDesignName>lbd-v3-01</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cli_telefone" id="5D018F25-DA66-9824-63C4-9D37BCC1115F">
+<createdBy>alexa</createdBy>
+<createdTime>2020-06-02 19:47:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[telefone do cliente]]></commentInRDBMS>
+<generatorID>7E0020E8-B933-AAEB-FC09-EDDBA7E21C5D</generatorID>
+<ownerDesignName>lbd-v3-01</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cli_celular" id="EA554F1D-82B8-0EAE-1297-AD3BC76A99DC">
+<createdBy>alexa</createdBy>
+<createdTime>2020-06-02 19:47:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[celular do cliente]]></commentInRDBMS>
+<generatorID>4F02E28E-5BEF-D499-0A53-ADDE0AAB306D</generatorID>
+<ownerDesignName>lbd-v3-01</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>16,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cli_objetivo" id="D7DC1AEB-3BF3-80D1-1BF3-7F8E290715EB">
+<createdBy>alexa</createdBy>
+<createdTime>2020-06-02 19:47:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[pequeno resumo sobre o cliente]]></commentInRDBMS>
+<generatorID>7FC08D4D-DD33-B8D9-D976-46B35D34BAEB</generatorID>
+<ownerDesignName>lbd-v3-01</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cli_logradouro" id="F40DDB1C-E14D-1903-F265-5E0F5A815786">
+<createdBy>alexa</createdBy>
+<createdTime>2020-06-02 19:47:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[endereco do cliente]]></commentInRDBMS>
+<generatorID>BBE2E3CA-7CB4-A5F3-2F5E-202F71D3CC7A</generatorID>
+<ownerDesignName>lbd-v3-01</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cli_numero" id="29F12FA4-BFA7-B418-66C1-5934802D73E9">
+<createdBy>alexa</createdBy>
+<createdTime>2020-06-02 19:47:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[numero da residencia ou apartamento do cliente]]></commentInRDBMS>
+<generatorID>4CA9D788-E1D8-C2AD-B957-9935D6EDFD6F</generatorID>
+<ownerDesignName>lbd-v3-01</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cli_complemento" id="13CE7241-5309-3E06-A142-935C403D5293">
+<createdBy>alexa</createdBy>
+<createdTime>2020-06-02 19:47:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[complemento do endereco do cliente]]></commentInRDBMS>
+<generatorID>E10881E5-736B-2616-4C89-CD36F8646EA5</generatorID>
+<ownerDesignName>lbd-v3-01</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cli_cep" id="408922B3-7072-90C2-D3C7-E9EAE13F1D13">
+<createdBy>alexa</createdBy>
+<createdTime>2020-06-02 19:47:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[codigo de enderecamento postal do cliente]]></commentInRDBMS>
+<generatorID>1C121A3F-6782-446D-222F-799D363DD1CA</generatorID>
+<ownerDesignName>lbd-v3-01</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>14</dataTypeSize>
+<ownDataTypeParameters>14,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cli_bairro" id="0A396FD7-B38F-917B-DE25-A16B24788146">
+<createdBy>alexa</createdBy>
+<createdTime>2020-06-02 19:47:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[bairro em que o cliente reside]]></commentInRDBMS>
+<generatorID>4D8C8DAB-A0E6-BA6B-1DEA-827104844A88</generatorID>
+<ownerDesignName>lbd-v3-01</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cli_uf" id="26A3397A-5D51-B51B-FBF7-C7E458612479">
+<createdBy>alexa</createdBy>
+<createdTime>2020-06-02 19:47:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[sigla da unidade federativa onde reside o cliente]]></commentInRDBMS>
+<generatorID>DFE5FBF5-22FF-D77C-F3A4-983F247FFAE6</generatorID>
+<ownerDesignName>lbd-v3-01</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="531439EB-BBBF-4339-A3DA-77117F89804D" name="CLIENTE_PK">
+<createdBy>alexa</createdBy>
+<createdTime>2020-06-02 19:47:57 UTC</createdTime>
+<generatorID>7E588967-D368-602C-743C-DE5C4648E51F</generatorID>
+<ownerDesignName>lbd-v3-01</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="98A6C40A-09C7-E44C-8EAA-5A67B265E922"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
